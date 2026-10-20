@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+
+@keyframes moverCuadricula {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    /* 6rem en X y 4rem en Y para coincidir con tu bg-[size:6rem_4rem] */
+    background-position: 6rem 4rem;
+  }
+}
+
+.animar-cuadricula {
+  animation: moverCuadricula 5s linear infinite;
+}
+
+ 
